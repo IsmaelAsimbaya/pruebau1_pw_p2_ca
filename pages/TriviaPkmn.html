@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Adivina el Pokemon?</title>
+    <script src="../js/control.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <form id="test" action="">
+        <h2 id="ttl" class="reinicie">Seleccione el Pokémon correcto</h2>
+        <img id="pkmn" src="../img/pnegro.jpg" alt="no se carga la imagen">
+        <table class="tabla">
+            <tr>
+                <td>
+                    <button id="op1" type="button" onclick="comprueba(this)">keldeo-ordinary</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="op2" type="button" onclick="comprueba(this)">drilbur</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="op3" type="button" onclick="comprueba(this)">ninjask</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="op4" type="button" onclick="comprueba(this)">excadrill</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="" id="mnsj"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="rst" type="button" onclick="reiniciar()">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+
+</body>
+
+</html>

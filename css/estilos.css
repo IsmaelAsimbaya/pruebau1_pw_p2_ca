@@ -1,0 +1,27 @@
+#test {
+    background-color: rgb(226, 218, 218);
+    text-align: center;
+}
+
+.tabla {
+    margin: auto;
+}
+
+#mnsj {
+    background-color: blue;
+    color: white;
+    border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.correcta {
+    color: yellow;
+}
+
+.incorrecta {
+    color: red;
+}
+
+.reinicie {
+    color: black;
+}
